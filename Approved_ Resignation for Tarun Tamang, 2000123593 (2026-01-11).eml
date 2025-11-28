@@ -1,0 +1,467 @@
+Received: from JH0PR04MB8225.apcprd04.prod.outlook.com (2603:1096:990:93::14)
+ by SEZPR04MB6137.apcprd04.prod.outlook.com with HTTPS; Tue, 14 Oct 2025
+ 08:45:13 +0000
+Received: from OSTP286CA0023.JPNP286.PROD.OUTLOOK.COM (2603:1096:604:216::14)
+ by JH0PR04MB8225.apcprd04.prod.outlook.com (2603:1096:990:93::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9203.13; Tue, 14 Oct
+ 2025 08:45:11 +0000
+Received: from OSA0EPF000000CA.apcprd02.prod.outlook.com
+ (2603:1096:604:216:cafe::30) by OSTP286CA0023.outlook.office365.com
+ (2603:1096:604:216::14) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9203.13 via Frontend Transport; Tue,
+ 14 Oct 2025 08:45:11 +0000
+Authentication-Results: spf=pass (sender IP is 147.154.255.194)
+ smtp.mailfrom=workflow.mail.em2.cloud.oracle.com; dkim=pass (signature was
+ verified) header.d=workflow.mail.em2.cloud.oracle.com;dmarc=pass action=none
+ header.from=workflow.mail.em2.cloud.oracle.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ workflow.mail.em2.cloud.oracle.com designates 147.154.255.194 as permitted
+ sender) receiver=protection.outlook.com; client-ip=147.154.255.194;
+ helo=smtp3.email.uk-london-1.ocs.oraclecloud.com; pr=C
+Received: from smtp3.email.uk-london-1.ocs.oraclecloud.com (147.154.255.194)
+ by OSA0EPF000000CA.mail.protection.outlook.com (10.167.240.56) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9228.7
+ via Frontend Transport; Tue, 14 Oct 2025 08:45:10 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkfusion-saasemail;
+ d=workflow.mail.em2.cloud.oracle.com;
+ h=Date:To:From:Subject:Message-Id:MIME-Version:Sender:List-Unsubscribe:List-Unsubscribe-Post;
+ bh=AqwOE9Nktwr40wNQjmfxyaBfLiDe6e8vmWUIffTVFPk=;
+ b=BOTGQ0SskxeQDKe9GbiNxGjq6KJS8nPbyXX+HB6vYvwC/McO0Law9PVhGgourcvKPMH5ISUocl47
+   GjlT8SBHXwgSa2vAn9A0CT+u/BOSPh+oiA6gLdFBQmkuKTbo2byparzgvR4wRKQYDFP2e3teDmnO
+   VCITl2F3j3Pd05uqA+2fl2OoimDjqU2h0BANO0Y+z5D9V133RmzJxzxau2OHSQ6s8ThfWHeCOXBY
+   Amo0P6MAz6uJkApKMjT3k1o5LtCkhB4LbNWzOyps4MLDSLKvEqFqoXwB3MgaKN4caxxDbTkWLymK
+   ZgrNZnRXzctOKiFJVufE73UHfMTwLBHO0ehUmQ==
+Received: from dkim-sign.oraclecloud.com by
+ smtp3.email.uk-london-1.ocs.oraclecloud.com
+ (Oracle Communications Messaging Server 8.1.0.1.20250220 64bit (built Feb 20
+ 2025)) id <0T4402W005MA7800@smtp3.email.uk-london-1.ocs.oraclecloud.com> for
+ tarunt1@hexaware.com; Tue, 14 Oct 2025 08:45:05 +0000 (GMT)
+Received: from etqo-auxvm5.etqo1.mdt03lhr01prd.oraclevcn.com
+ (nlb-outbound-smtp.mta.email.oraclevcn.com [10.34.0.7])
+ by smtp3.email.uk-london-1.ocs.oraclecloud.com
+ (Oracle Communications Messaging Server 8.1.0.1.20250220 64bit (built Feb 20
+ 2025))
+ with ESMTPSA id <0T4402QAJ5N56140@smtp3.email.uk-london-1.ocs.oraclecloud.com>
+ for tarunt1@hexaware.com; Tue, 14 Oct 2025 08:45:05 +0000 (GMT)
+Date: Tue, 14 Oct 2025 08:45:05 +0000 (UTC)
+From: Tarun Tamang <etqo.fa.sender@workflow.mail.em2.cloud.oracle.com>
+Reply-To: etqo.fa.sender@workflow.mail.em2.cloud.oracle.com
+To: tarunt1@hexaware.com
+Message-id: <e1e4fff1ac1c37c90c9f76e9608df2f9.ums@oracle.com>
+Subject: Approved: Resignation for Tarun Tamang, 2000123593 (2026-01-11)
+Content-Type: multipart/related;
+	boundary="----=_Part_728367_1550247057.1760431505782"
+creatorName: Tarun Tamang
+previousApproverName:
+aliasName: <NA>
+fromAndReplyToAddress: <DEFAULT>
+X-EmailDriver-Message-ID: e1e50176ac1c37c90c9f76e983df0241
+Return-Path: etqo.fa.sender@workflow.mail.em2.cloud.oracle.com
+X-MS-Exchange-Organization-ExpirationStartTime: 14 Oct 2025 08:45:11.3389
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 0b5769b4-606b-42ee-7f09-08de0afdfc8e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 7c0c36f5-af83-4c24-8844-9962e0163719:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: OSA0EPF000000CA:EE_|JH0PR04MB8225:EE_|SEZPR04MB6137:EE_
+X-MS-Exchange-Organization-AuthSource: OSA0EPF000000CA.apcprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 0b5769b4-606b-42ee-7f09-08de0afdfc8e
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|12012899012|3092899012|2092899012|3072899012|5062899012|4076899003|8096899003|4053099003;
+X-Forefront-Antispam-Report: CIP:147.154.255.194;CTRY:GB;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKA;H:smtp3.email.uk-london-1.ocs.oraclecloud.com;PTR:smtp3.email.uk-london-1.ocs.oraclecloud.com;CAT:NONE;SFS:(13230040)(12012899012)(3092899012)(2092899012)(3072899012)(5062899012)(4076899003)(8096899003)(4053099003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Oct 2025 08:45:10.8854
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0b5769b4-606b-42ee-7f09-08de0afdfc8e
+X-MS-Exchange-CrossTenant-Id: 7c0c36f5-af83-4c24-8844-9962e0163719
+X-MS-Exchange-CrossTenant-AuthSource: OSA0EPF000000CA.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JH0PR04MB8225
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.6454412
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9203.007
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?UGVRdi9TMkV3Z0ZRUnBYYTBHdWVQbGI0ZzZqdHRxck1lWG9EeXZubWpDM1ln?=
+ =?utf-8?B?a1RJVkM4bE55RXZvTGpXeUdSa25vZWRWSjVCanQ5YjJsdDVLcUdEeElTbXlO?=
+ =?utf-8?B?UHpsL1BxTUQzYnBQUjlwRDJrQXd0UStNaWN0djZhYUdzYmRhRWwrSXdJZ2RY?=
+ =?utf-8?B?Ui84VzdVbFdhc1Flb1ZONE5tUnVUWnM2b1VPcXBMWTlGQlF3emRPRktVQngr?=
+ =?utf-8?B?bTR0OFl1Q1lPdUcwcHNGSjJnTlhFbUR1UHFQRm52eWp0NU5Ma0FyTko1a1Yv?=
+ =?utf-8?B?MnBVSk5maEZhRlMrSE5MQmlkbVhicnhUNDlORVRadlNsUm80MHFkTUh2NHV1?=
+ =?utf-8?B?Ull4WlZaeE5vQ2YwWVhJdExCV0MvVXBmRWs3eFZRNWNqNE1uWmRLL3g4ZmxW?=
+ =?utf-8?B?RzZHQVNwTTVQMVY3T3VzQkRMYUNPL1c0RGZvVURONUZiUExjQ0EyK1c1MGM0?=
+ =?utf-8?B?V0ZYQ25zc0hkbURJYm9KUDVBZ2J2RXRKb0xtM1c3ZUhjdTRRL2VaRWxlZUhh?=
+ =?utf-8?B?Y0I3WGw3N3A2ODVhWjZwbE42ckE4ZmVuS2h6bmZXbXF1VmVTcE5tWEVlWmph?=
+ =?utf-8?B?MFo2Zys2Q20rYnhOVnNVOGVDWDNpUk05UDRaRDlyWHFZbExKR29LR0swSzU5?=
+ =?utf-8?B?TmtydnJzZDc2WUpvWWNnNnNKMXpxM0ZHSmdGdU02QkUrMUJHaE9sRE9ONHlY?=
+ =?utf-8?B?YldoUzNCSkhyK1N6V0xMRTB1Y1FlNWJoc3lNS3ZXc0dmeEJuME9UUXlYR2ls?=
+ =?utf-8?B?b0l1Z1RybXprenpnZmlNbmNLQmlNWFJzRlh5TncyZElUMldsNm9CNVgyM3do?=
+ =?utf-8?B?NCtFSkRod0ROTVhIdTRLb01OZDBMdTdoaHIxeXBOZExGL3orYWdMa3lvZ25z?=
+ =?utf-8?B?RDJOTTB4VlY1U29mUDFkdEwzVzBjK3h4UlBTN2hZV2VtN0ZSZ3B6T1Rld24y?=
+ =?utf-8?B?V1hlWEJ1cXlMSlZDeDRKRlNYV1N2L3FjQUQ5ZWJxMmw4L21BakswaFpQT1lH?=
+ =?utf-8?B?MjhHd3EvSW9yVFVIeVJhb29FeVFBNTgvaFdsSFlEZDhHcS9CZ1RuWW9PNVBO?=
+ =?utf-8?B?OFJ5RE5NSmdKcERFV2loOFFpY3ZVQjVFNEdxOUFUT3BOMDNQZUZ5azRsUHVQ?=
+ =?utf-8?B?VTlpeFJRNWtDWFROK1BoR1U2ZGRnK0xPUXcwWDJ1dnExRzhvbmt6bHl2eVF3?=
+ =?utf-8?B?OFFQUzlFUkZKbnNFZkdBaTZzVnJPeStEWEcycHlmZzFRNWNWUGdNb2N3OWFI?=
+ =?utf-8?B?elJDRnpiWENOeHBRYjhxd1EyQ3BDZThCN0tSTEtjNmpqcHI4TEdUNWlHblJF?=
+ =?utf-8?B?dmhuZUI0d3Q0bElLa0pxMFhiR0lvWjY2bm5SK3dGWkphc1cxU1JWeThWQVI2?=
+ =?utf-8?B?OCtobDAxRUxUaHZnTmJzZ2M2bmtidG94SjMzM1RVZC9WYWp3ZHpiOFU4TEVR?=
+ =?utf-8?B?V2hYUG9RajFhU29DaEcvOWhBcHJwbDZmdjh1andOV2VrMnR3ZHV2TnNDUGFG?=
+ =?utf-8?B?ZFlOYzgrNmdQTWQ2alIyUktjVjRMczRvRVhPNkJEdWNQcnBYWXNTb2VhT3dX?=
+ =?utf-8?B?V1hSUm1DUGd2Y2JXR1lMaTEzV1YzUnNPZ2Q3bjdBdEJZVDJzMUs0UE92dFR6?=
+ =?utf-8?B?ZWY2OVNYcUtHb1dOSGFCV25Ka0RRNEZDMzE5M0kzOUY3VEtaMzBERFBWMVBE?=
+ =?utf-8?B?a0lKYndjMXA3Y20xQk5NQzhSZTVQSGw3SHNGWTZvMndQSFd6RmlXeFdzZlhv?=
+ =?utf-8?B?QWRSbUJtM2Jzc0R6ZlN5TjlhVlpLNDl3ZFVVa2xLVzkrNHRlYkcxTzI3Y0Ji?=
+ =?utf-8?B?Y0ZxK2JXU2Fyd0hoTmdsdEFVZDN5T1RhSkc0SGRlK1VwSHdOTlBERlA3QlBW?=
+ =?utf-8?B?cis5a1c4bmlTUTI2UGU3TEYrdzVMTDQyRjdpQWREbDIvbDNEWUw4OG42QVpG?=
+ =?utf-8?B?YWUrazE0L0RqQjBIcVB4L0RvU0NSa2VUdFFCeHh6RFM0V3RRMmQvMENGaTNH?=
+ =?utf-8?B?RjJIMEp4bXFEb1pmWHN2ODdCZlBFMU1lZjVXK0dHZEt0OUVpR1BYSU5FS3Nr?=
+ =?utf-8?B?Q3UxamlVUkhHWmtFTGh3WWNjWTlmZlVEU2NtZDQ0eEMweFB4L2pucWtQalJ3?=
+ =?utf-8?B?RTVkVzF3MzJmc3hiVC9CU0ZUYzN2RUgwVG1BcjRIeGZtQ2FZL3A4bkY0b0lI?=
+ =?utf-8?B?SXBWbjRaRkdaYjFsc2RncWlZdzMyZGJ5a2V5VmM4cit6Qjl3cTlXM0hLRzMv?=
+ =?utf-8?B?UzB0MnllR1lZRWNYaXROd29ER2V2b2V6S2dUdmNCbTNDYzY3d1FUSDlBS0JU?=
+ =?utf-8?B?VW5nNDM4YjVmME9BcURQSllzc3BMNWhXS3BNNU13VGFXVTB6YTlPYWRVSjNV?=
+ =?utf-8?B?dXZPNlZwN1Z2TVhYb0Rob3J5ZzhkS2U0WTA2NlMxRlprRDh2Yyt6WEhQcU1p?=
+ =?utf-8?B?ekw4aWowbXpqa1F5bHV0UW80VDlnb242cHBVRTYzVVk5VGdsdVZZZW80cmE2?=
+ =?utf-8?B?dzBnVk05ZXBUQmNYdExEZE1WZmdFS2ozRExQWFhDU3ZlTG1mOFdvaFVYNS9Y?=
+ =?utf-8?B?ejlJVlhXR3c5T3ZOM0FaZEdPVUovVUJSeXNoK0dXYXpDcXY0N1RuaEJERDNG?=
+ =?utf-8?B?OFh4VWtTckpORHQrVTFla3hpVDNWY1h0aG9JQUx1QjdhSnhKWVJnUzR2YW1n?=
+ =?utf-8?B?OFJBWHBPQVEySjJ6NUJ2amFxbFRmRzRoYXlPSElhTDBrSHdFZGl5S0lZSllO?=
+ =?utf-8?B?b0VmUk50V0Y5Y1NMY1JhdThRL3FOS1o0dzRTSUJLL05FVTkyN3lHbFRmZlRk?=
+ =?utf-8?B?RlgxTWJXb1Rpd29PSlFoWmVPWmVJdGZ4OS9JM0VoUkd2TEpjc0l0bDlET28y?=
+ =?utf-8?B?a21PQnBSbUtEd0graUpQTmhJZllCbGN5MlpqRGhONGpGMzM5MkVTZk8wMlBG?=
+ =?utf-8?B?R1J2WDhVbW5Qa1FTTGRKOEdvQ3llaFJzOXlvSi9sMmVvV2pCaUxnblZNZzZm?=
+ =?utf-8?B?Y2FKNEQzUk5tam5Ed3R6dDdaNUV3ZjZLZ2d4Y0MrWFVxbzZwWlBIa3ZTMjJk?=
+ =?utf-8?B?WTBqejc5Y0NvZjNhQldxc1M5ZkVvMzN2cjBLWWRRWlROOElKRjV0R2hNK2Zw?=
+ =?utf-8?B?N1R2bnNUc3NqemtFT1hFLzd4eTlXSHlRR2N6aXhJMXZhL2F3eG9rWkhRMllZ?=
+ =?utf-8?B?dWhwVVNuSHZ3MWU2SlVXcUdxSTNSVVlaWEIvZy9GREF4czhzZ3NOZVlvbito?=
+ =?utf-8?B?elA2eENuMVVZMnJ3WHd3Mk5DN3I3Z1RVV1NUKzl3emNrRkJEbU1LTmwwMzBS?=
+ =?utf-8?B?aGxYVnB2elgyejlBSjVlMWtOZW9EV0VSTWs1N0ZxaFF0US9IUFN4OGpxcFdn?=
+ =?utf-8?B?NGlhbUhVcGFzMk15SVBBUHdCcjU4bHVPd3pmcktzZ3hTUDJZemdybWhQZz09?=
+MIME-Version: 1.0
+
+------=_Part_728367_1550247057.1760431505782
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><!-- Generated by Oracle Analytics Publisher --><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>RTF Template</title>
+<style type="text/css" id="internalStyle">
+.c0 {height: 371.56pt;}
+.c1 {word-wrap:break-word;width:100.0%;background-color: #ffffff;}
+.c2 {margin-top: 0.0pt;margin-bottom: 0.0pt;height: 0pt;}
+.c3 {height: 119.264pt;}
+.c4 {word-wrap:break-word;border-width: 1.0pt;border-color: #d1d1d1;border-style: solid;width:100.0%;background-color: #f4f4f4;}
+.c5 {line-height: 16.184pt;margin-top: 6.0pt;margin-bottom: 6.0pt;margin-left: 8.0pt;margin-right: 6.0pt;}
+.c6 {font-family: 'Arial';font-size: 14.0pt;color: #000000;}
+.c7 {line-height: 25.432pt;margin-top: 0.0pt;margin-bottom: 0.0pt;margin-left: 8.0pt;margin-right: 6.0pt;}
+.c8 {font-family: 'Arial';font-size: 22.0pt;color: #000000;}
+.c9 {line-height: 12.716pt;margin-top: 6.0pt;margin-bottom: 6.0pt;margin-left: 8.0pt;margin-right: 6.0pt;}
+.c10 {font-family: 'Arial';font-size: 11.0pt;color: #707070;}
+.c11 {line-height: 12.716pt;margin-top: 0.0pt;margin-bottom: 6.0pt;margin-left: 8.0pt;margin-right: 6.0pt;}
+.c12 {margin-top: 0.0pt;margin-bottom: 0.0pt;table-layout:fixed;margin-right: auto;width:100.0%;border-collapse: collapse;}
+.c13 {margin-top: 0.0pt;margin-bottom: 0.0pt;margin-left: 5.4pt;margin-right: 5.4pt;height: 0pt;}
+.c14 {height: 37.028pt;}
+.c15 {line-height: 15.028pt;margin-top: 8.0pt;margin-bottom: 0.0pt;margin-right: 5.4pt;}
+.c16 {font-family: 'Arial';font-size: 13.0pt;color: #000000;}
+.c17 {margin-top: 0.0pt;margin-bottom: 3.0pt;margin-right: 5.4pt;}
+.c18 {height: 23.766pt;}
+.c19 {word-wrap:break-word;width:50.0%;background-color: #ffffff;}
+.c20 {text-align: right;line-height: 12.716pt;margin-top: 3.0pt;margin-bottom: 3.0pt;margin-left: 5.75pt;margin-right: 5.75pt;}
+.c21 {line-height: 12.716pt;margin-top: 3.0pt;margin-bottom: 3.0pt;margin-left: 5.75pt;margin-right: 5.75pt;}
+.c22 {font-family: 'Arial';font-size: 11.0pt;color: #000000;}
+.c23 {margin-top: 0.0pt;margin-bottom: 0.0pt;}
+.c24 {margin-top: 0.0pt;margin-bottom: 0.0pt;table-layout:fixed;margin-right: auto;width: 453.55pt;border-collapse: collapse;}
+.c25 {height: 48.056pt;}
+.c26 {line-height: 15.028pt;margin-top: 8.0pt;margin-bottom: 2.0pt;margin-right: 5.4pt;}
+.c27 {height: 18.716pt;}
+.c28 {line-height: 12.716pt;margin-top: 3.0pt;margin-bottom: 3.0pt;margin-right: 5.399pt;}
+.c29 {height: 25.432pt;}
+.c30 {line-height: 12.716pt;margin-top: 0.0pt;margin-bottom: 0.0pt;margin-left: 5.4pt;margin-right: 5.399pt;}
+.c31 {font-family: 'Courier New';font-size: 11.0pt;color: #000000;}
+.c32 {text-align: right;line-height: 12.716pt;margin-top: 0.0pt;margin-bottom: 0.0pt;margin-left: 5.4pt;margin-right: 5.399pt;}
+.c33 {text-decoration: none;}
+.c34 {font-family: 'Arial';font-size: 11.0pt;color: #0000ff;}
+.c35 {text-align: -moz-center;}
+.c36 {margin-top: 0.0pt;margin-bottom: 0.0pt;table-layout:fixed;margin-right: auto;margin-left: auto;width:100.0%;border-collapse: collapse;}
+#BIPHTML a {
+text-decoration: none;
+}
+#BIPHTML a:visited {
+text-decoration: none;
+}
+#BIPHTML a:hover {
+text-decoration: none;
+}
+#BIPHTML a:active {
+text-decoration: none;
+}
+#BIPHTML a.hrc-hideshow-link {
+	   font-size: 10pt;
+	   color: #0471b2;
+	   text-decoration: none;
+	   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+</style>
+
+</head>
+<body><br>Access this task in the&nbsp;<font style="font-family:Tahoma;font-size:11px"><a style="text-decoration:none" href="https://fa-etqo-saasfaprod1.fa.ocs.oraclecloud.com/integration/worklistapp/faces/home.jspx?taskId=38026689-79c4-49ca-a222-baa8120f98c4">Worklist Application </a></font>
+
+<!-- adding this  to fix the outlook stretch issue and center align the mails -->
+<span id="BIPHTML">
+<table style="margin:0 auto; width: 100% !important; height: auto; max-width: 604px !important;" align="center"><tr><td>	
+     <table cellspacing="0" style="width:100%">	
+       <tr>	
+           <td style="padding:0px;margin:0px;"></td>	
+           <td style="padding:0px;margin:0px;" width="604">
+        <!--  done-->
+<!--BIP content here -->
+
+<div class="c35" start="center"><table class="c36">
+<col width="100.0%">
+<tr class="c0">
+<td valign="top" class="c1"><p class="c2"><br></p>
+<table class="c12">
+<col width="100.0%">
+<tr class="c3">
+<td valign="top" class="c4"><p class="c5"><span class="c6">Resignation</span></p>
+<h1 class="c7"><span class="c8">Tarun Tamang</span></h1>
+<p class="c9"><span class="c10">Person Number</span><span class="c10"><b> 2000123593</b></span></p>
+<p class="c11"><span class="c10">Reason</span><span class="c10"><b> Career Growth</b></span></p>
+<p class="c11"><span class="c10">Effective</span><span class="c10"><b> 11-Jan-2026</b></span></p>
+</td>
+</tr>
+</table>
+<p class="c13"><br></p>
+<p class="c2"><br></p>
+<table class="c12">
+<col width="50.0%">
+<col width="50.0%">
+<tr class="c14">
+<td valign="top" colspan="2" class="c1"><h2 class="c15"><span class="c16">Termination Details</span></h2>
+<p class="c17"><br></p>
+</td>
+</tr>
+<tr class="c18">
+<td valign="top" class="c19"><p class="c20"><span class="c10">Name</span></p>
+</td>
+<td valign="top" class="c19"><p class="c21"><span class="c22">Tarun Tamang</span></p>
+</td>
+</tr>
+<tr class="c18">
+<td valign="top" class="c19"><p class="c20"><span class="c10">Legal Employer</span></p>
+</td>
+<td valign="top" class="c19"><p class="c21"><span class="c22">Hexaware Technologies Limited - India</span></p>
+</td>
+</tr>
+<tr class="c18">
+<td valign="top" class="c19"><p class="c20"><span class="c10">Notification Date</span></p>
+</td>
+<td valign="top" class="c19"><p class="c21"><span class="c22"> 14-Oct-2025</span></p>
+</td>
+</tr>
+<tr class="c18">
+<td valign="top" class="c19"><p class="c20"><span class="c10">Termination Date</span></p>
+</td>
+<td valign="top" class="c19"><p class="c21"><span class="c22"> 11-Jan-2026</span></p>
+</td>
+</tr>
+</table>
+<p class="c23"><br></p>
+<table class="c24">
+<col width="0.0pt">
+<col width="0.0pt">
+<col width="0.0pt">
+</table>
+<p class="c23"><br></p>
+<p class="c23"><br></p>
+<p class="c23"><br></p>
+<table class="c12">
+<col width="100.0%">
+<tr class="c25">
+<td valign="top" class="c1"><h2 class="c15"><span class="c16"> </span><br></h2>
+<h2 class="c26"><span class="c16">Approvers</span></h2>
+</td>
+</tr>
+</table>
+<table class="c12">
+<col width="100.0%">
+<tr class="c27">
+<td valign="top" class="c1"><p class="c28"><span class="c22"><p><table style="width: 100%;
+                max-width: 604px;
+                font-size: 15px;
+                border-collapse: collapse;
+                font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; " role="presentation">
+    <tbody>
+    
+<tr>
+  <td style="border: 1px solid #D1D1D1; background-color:#F4F4F4; color: #707070;padding :2px;">
+    <table style="width: 100%;
+                border-collapse: collapse; font-size: 15px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" role="presentation"> 
+        
+          <tr>
+  <!--Action Date -->
+            <td></td>
+            <td width="100%" align="right" valign="top">
+                <span style="font-size: 12px;">14-Oct-2025 8:44 AM</span>
+            </td>
+  </tr>
+         <tr>
+        <!-- Name and status column -->
+            <td width="25" style="" valign="top" align="center">
+              <img src="cid:2103538381" alt=""><!-- </img> -->
+             </td>
+            <td width="535">
+                <span>Approved by <strong>Workflow System</strong></span>
+             </td>
+        </tr>
+             
+        </table>
+
+</td></tr>
+<tr>
+  <td style="border: 1px solid #D1D1D1; background-color:#F4F4F4; color: #707070;padding :2px;">
+    <table style="width: 100%;
+                border-collapse: collapse; font-size: 15px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" role="presentation"> 
+        
+          <tr>
+  <!--Action Date -->
+            <td></td>
+            <td width="100%" align="right" valign="top">
+                <span style="font-size: 12px;">14-Oct-2025 8:44 AM</span>
+            </td>
+  </tr>
+         <tr>
+        <!-- Name and status column -->
+            <td width="25" style="" valign="top" align="center">
+              <img src="cid:1003374732" alt=""><!-- </img> -->
+             </td>
+            <td width="535">
+                <span>Submitted by <strong>Tarun Tamang</strong></span>
+             </td>
+        </tr>
+             
+        </table>
+
+</td></tr>
+    </tbody>
+    </table></p></span></p>
+</td>
+</tr>
+</table>
+<p class="c13"><br></p>
+<p class="c2"><br></p>
+<p class="c23"><br></p>
+<table class="c12">
+<col width="50.0%">
+<col width="50.0%">
+<tr class="c29">
+<td valign="middle" class="c19"><p class="c30"><span class="c31"> </span><br></p>
+</td>
+<td valign="middle" class="c19"><p class="c32"><span class="c31"> </span><br></p>
+<p class="c32"><a href="https://fa-etqo-saasfaprod1.fa.ocs.oraclecloud.com:443/hcmUI/faces/adf.task-flow?bpmWorklistTaskId=38026689-79c4-49ca-a222-baa8120f98c4&amp;bpmWorklistContext=199d7904-ed15-4b43-b1b5-7be7e959bd39%3B%3BG%3B%3BUVPRCQqQ8640P605HWIxUO5A%2BcSOlrGDyLx28%2B5UhoLYAIAAV3Wbnu2zZ0p%2FggPmM87%2BsEt%2B1GpHNXYTAqzew32gWu%2B0HxR2MPgea6bHGcMDCpYjknTJcwKJBblXc%2FnOh66F8pVQmB4tp0GI6CvymaqPx26fTgySWT8hkV7R4tA%3D&amp;bpmBrowserWindowStatus=taskFlowReturn&amp;dispNameLg=en&amp;dispNameCy=&amp;dispNameVr=&amp;df=medium&amp;dt=both&amp;tf=short&amp;bpmWorklistSessionTimeoutInterval=3000&amp;source=email&amp;_id=UnifiedNotificationFlow&amp;_document=WEB-INF%2Foracle%2Fapps%2Ffinancials%2FcommonModules%2Fshared%2FpublicUi%2FonlineNotification%2Fflow%2FUnifiedNotificationFlow.xml" target="_parent" class="c33"><span class="c34">In-app notification</span></a></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>       <!--outlook fix ends here -->
+        </td>
+        <td style="padding:0px;margin:0px;"></td>
+    </tr>
+  </table>  
+</td></tr>  
+</table></span>
+<!-- done-->
+</body>
+
+</html>
+------=_Part_728367_1550247057.1760431505782
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Content-ID: <2103538381>
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA4JpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1
+NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo2QUVENDk5NjdGMjM2ODExODIyQURBRDlDNkZE
+RTUzMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0OEVGMDMwNzYxMTIxMUU0ODE3NEY0NDkz
+RTk0QTBCMiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0OEVGMDMwNjYxMTIxMUU0ODE3NEY0
+NDkzRTk0QTBCMiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFj
+aW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmFh
+MTNkNjc4LTE0NDgtNDk5Ni04NmE1LTEzNDhkMGY1MzEzYyIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRv
+YmU6ZG9jaWQ6cGhvdG9zaG9wOmJhZDQxZDM2LTVkMzMtMTE3Ny1hNzY0LWE5OGEzMTI3MmFlMiIv
+PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+ZD0iciI/PqV6GrMAAAMJSURBVHja1FbbSxRhFP99szPjlismmCKmgQ+lgpldrMAeeikISvBByoIe
+fIpaM6IsMyq8ZuUFDSGhULo8ST35HxTd1aUbQT2pBUlqmayzM/N1vhlddnf2og8+dJZhvm/OOb/z
+ndt3lnHOsZokYZVJXlqwgS1O7pTmgc5boPFyaGY2rV1gQosFoEhTUNgwPbVIV+ciVfkJXwIPfix0
+YFb/BRNerJNzsXGNC/nJwCZ6ctwK0pQskqommWmS7UzoQcipVfjNN2CsCFlJwFpXOF94oNK5VHqn
+EG/ekDGt12Lcvx9uqYS80eLnQIArUhGyo4BHIyEjZBWpkHSfxU+yCIs4eaa68myuJx3GdkSGSwpL
+6JxRgzR5RbhnCo5h5uhzVOYdgKU7Z3gtLIcBnbeSu65lhWWRaguPo6u0DqmqB3d2X7bDJTB03u40
+oPHD8LhWdPKOneftkqRf/btumyESr/FD0TzIRNLy+s5bUIXO0gtUUMwCr3nZhv4vQzZTYATMDKcB
+g6vUQNayPGcfvlYMoyrvoAP8VP4RdFNYGGzZs6/a0fv5cUjh03cDirMPOCcdW2mgrNmK62BZi7V/
+9G3Yep/cXImeXZeC4Ode30L3p4cRfcJsLIcBF7W/biqiiW5+uI+mEi99kiwjJjeRqqRYiVwCv/i2
+Cx0fB53x07nwQncaUKTv1Ci5wkCzr98Caiw5bRl5sLcNEmNB8Csjvbjx/l70BPkNG8uRA5U9oRoO
+bpt8dy0g2zkpCH5ttM/ixaQ/hsB66jQgswa6V3T8DTfSMNITtr8+1hcbXOgKDJnVO0Mkrlyd38ZM
+oM5qmMU0iXCJoZSiJAc9ikkzFHqPqyv0+mZLEy04D8b9oxTDYmSoQSMJySSMnwFR/z5scBfHnwdu
+aRsJjmHCj9BwxQ3L5AJVj/mCdLcnHpnpqkmn2ApZaqWbMYAJUp4l1wNc3An2aTUT+E3fBE/IyKwZ
+2e49pKtHwjlDFD583JSXRgKvINAcWivUSJzKSqNKmaRxOUTgVwl4PtbIZP/9v4p/AgwAfrQjLcRQ
+WI0AAAAASUVORK5CYII=
+
+------=_Part_728367_1550247057.1760431505782
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Content-ID: <1003374732>
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA35pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1
+OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo2QUVENDk5NjdGMjM2ODExODIyQURBRDlDNkZE
+RTUzMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5RTdCMkM1Mzg4MTQxMUU2QjQyRDk4Nzgz
+MzYwNDVERSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5RTdCMkM1Mjg4MTQxMUU2QjQyRDk4
+NzgzMzYwNDVERSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRv
+c2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ODdhZmIw
+MmEtYTU2Ni00OThjLWE1YTQtN2Q3M2NlZTExZmVjIiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpk
+b2NpZDpwaG90b3Nob3A6YWQwMzljNDEtY2U0MC0xMTc5LWJkNTktZjYwOTU4NmUyZDFkIi8+IDwv
+cmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJy
+Ij8+u+ShZwAAAp9JREFUeNrUVs9PE0EU/mCBQn8IhdKi1ZAQPMDFg3jQiyYSY/RSo1UTjx64eLHG
+Ejx4JKYk3ownLyQaYgmWGP8AD940JlyIURCTNrVSxHbbxa7brm921nbb3f4AwsFJXmfb2fm+N+/N
++17bVFXFQY52HPDoaLTYFlrooimg22myI2QyWZzsI9krsmX18U25Lka9EBH4FZoicA6MwukGup3k
+DvGpJUAhvIIE5H4y+0LvTRPJUksEBCzQNEugYfT6AHtv4xhIGSDzgxFF6NsDIio2C9Es+nxhDByj
+DAnNg8wc0E7XGcavFPtluu4JyPtrcPZH4RuxBH840Qe3TUDo3RZMgS2R46l1dpIgnWLRRKAndA3+
+saOwH6oOG9ncmX7cO8HD9WxVxNTbNIq1LFIWSKwm6GnkX+KN1zQIl8cE3k7oT896yuBs3B5z4fmk
+F11ssSpctNfl8dPTdas6CGi3xZggApg/P4ipcRc2dyq5+yYquDHqwNJFL3o6akg4RsCK4BS6HVVh
+eXnBi1vHnRr45Ovv5bVzy0mN5PKwHW8uDWmOlAfHmLAiGILQWf7Cwhv7mkdS4uArW5Va2iBwRrKe
+VfDicw5KyZAMgaUSh62uqQxVtcHgzPynHBbX8pAUczEykvGFOApFtWUtSkL5Y64jpT6AJXhR5lgW
+BCuQpf2r2+88+3xvRRBDbnv/BBwjZkUQhZiOYye7d3C2V0wnNKxaAr3yQpqelIq7B2d7uBbdJaxC
+IzWNkNjdx+CwXg2V4bZxf7YLJTPB5gYjmCPwcDM1naEXe+hG3eFyXZEOS2CmP5kUE7kn2t5dNJyr
+ND0ibeENx+bgDYcNreHkeULFNGs4M0YFbYnAoLBBMtbdTpL59SWWyA96y4zuqWX+N/8q/gowAMxN
+CyvwU77GAAAAAElFTkSuQmCC
+
+------=_Part_728367_1550247057.1760431505782--
